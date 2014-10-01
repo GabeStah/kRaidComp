@@ -1,0 +1,34 @@
+defaults: &defaults
+
+SPELLS
+id
+name
+has_and_belongs_to_many :class_specs
+has_many :effects
+
+CHARACTER_CLASSES
+id
+blizzard_id
+name
+has_many :specs
+
+CLASS_SPECS
+id
+name
+belongs_to :character_class
+has_and_belongs_to_many :spells
+
+EFFECTS
+id
+name
+belongs_to :spell
+
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
