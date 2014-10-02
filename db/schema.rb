@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20141001194426) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "character_classes", force: true do |t|
     t.integer  "blizzard_id"
     t.string   "name"
@@ -27,7 +30,7 @@ ActiveRecord::Schema.define(version: 20141001194426) do
     t.integer  "character_class_id"
   end
 
-  add_index "class_specs", ["character_class_id"], name: "index_class_specs_on_character_class_id"
+  add_index "class_specs", ["character_class_id"], name: "index_class_specs_on_character_class_id", using: :btree
 
   create_table "class_specs_spells", id: false, force: true do |t|
     t.integer "class_spec_id"
@@ -40,15 +43,17 @@ ActiveRecord::Schema.define(version: 20141001194426) do
     t.datetime "updated_at"
   end
 
+  create_table "effects_spells", id: false, force: true do |t|
+    t.integer "spell_id"
+    t.integer "effect_id"
+  end
+
+  add_index "effects_spells", ["spell_id", "effect_id"], name: "by_effect_and_spell", unique: true, using: :btree
+
   create_table "spells", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "spells_effects", id: false, force: true do |t|
-    t.integer "spells_id"
-    t.integer "effects_id"
   end
 
 end

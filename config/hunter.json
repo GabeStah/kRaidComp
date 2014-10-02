@@ -1,0 +1,291 @@
+{
+    "Hunter": [
+        {
+            "id": 160011,
+            "name": "Agile Reflexes",
+            "effects": ["multistrike"],
+            "pet": "Fox",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 90355,
+            "name": "Ancient Hysteria",
+            "effects": ["bloodlust"],
+            "pet": "Core Hound",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 159733,
+            "name": "Baleful Gaze",
+            "effects": ["multistrike"],
+            "pet": "Basilisk",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 159988,
+            "name": "Bark of the Wild",
+            "effects": ["stats"],
+            "pet": "Dog",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160017,
+            "name": "Blessing of Kongs",
+            "effects": ["stats"],
+            "pet": "Gorilla",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 24844,
+            "name": "Breath of the Winds",
+            "effects": ["multistrike"],
+            "pet": "Wind Serpent",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 50518,
+            "name": "Chitinous Armor",
+            "effects": ["versatility"],
+            "pet": "Ravager",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160045,
+            "name": "Defensive Quills",
+            "effects": ["versatility"],
+            "pet": "Porcupine",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 58604,
+            "name": "Double Bite",
+            "effects": ["multistrike"],
+            "pet": "Core Hound",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 90363,
+            "name": "Embrace of the Shale Spider",
+            "effects": ["critical strike", "stats"],
+            "pet": "Shale Spider",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 135678,
+            "name": "Energizing Spores",
+            "effects": ["haste"],
+            "pet": "Sporebat",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 126373,
+            "name": "Fearless Roar",
+            "effects": ["critical strike"],
+            "pet": "Quilen",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 54644,
+            "name": "Frost Breath",
+            "effects": ["multistrike"],
+            "pet": "Chimaera",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 24604,
+            "name": "Furious Howl",
+            "effects": ["critical strike"],
+            "pet": "Wolf",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 35290,
+            "name": "Indomitable",
+            "effects": ["versatility"],
+            "pet": "Boar",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160039,
+            "name": "Keen Senses",
+            "effects": ["mastery"],
+            "pet": "Hydra",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160452,
+            "name": "Netherwinds",
+            "effects": ["bloodlust"],
+            "pet": "Nether Ray",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160073,
+            "name": "Plainswalking",
+            "effects": ["mastery"],
+            "pet": "Tallstrider",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 90364,
+            "name": "Qiraji Fortitude",
+            "effects": ["spell power", "stamina"],
+            "pet": "Silithid",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 93435,
+            "name": "Roar of Courage",
+            "effects": ["mastery"],
+            "pet": "Cat",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160003,
+            "name": "Savage Vigor",
+            "effects": ["haste", "stamina"],
+            "pet": "Rylak",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 160074,
+            "name": "Speed of the Swarm",
+            "effects": ["haste"],
+            "pet": "Wasp",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 128997,
+            "name": "Spirit Beast Blessing",
+            "effects": ["mastery"],
+            "pet": "Spirit Beast",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 34889,
+            "name": "Spry Attacks",
+            "effects": ["multistrike"],
+            "pet": "Dragonhawk",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 126309,
+            "name": "Still Water",
+            "effects": ["critical strike", "spell power"],
+            "pet": "Waterstrider",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 160077,
+            "name": "Strength of the Earth",
+            "effects": ["stats", "versatility"],
+            "pet": "Worm",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 160052,
+            "name": "Strength of the Pack",
+            "effects": ["critical strike"],
+            "pet": "Raptor",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 160014,
+            "name": "Sturdiness",
+            "effects": ["stamina"],
+            "pet": "Goat",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 159735,
+            "name": "Tenacity",
+            "effects": ["versatility"],
+            "pet": "Bird of Prey",
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 90309,
+            "name": "Terrifying Roar",
+            "effects": ["critical strike"],
+            "pet": "Devilsaur",
+            "specs": [
+                "beast mastery"
+            ]
+        },
+        {
+            "id": 19506,
+            "name": "Trueshot Aura",
+            "effects": ["attack power"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 57330,
+            "name": "Wild Strength",
+            "effects": ["multistrike", "versatility"],
+            "pet": "Rhino",
+            "specs": [
+                "beast mastery"
+            ]
+        }
+    ]
+}

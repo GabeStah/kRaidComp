@@ -1,0 +1,251 @@
+{
+    "Death Knight": [
+        {
+            "id": 57330,
+            "name": "Horn of Winter",
+            "effects": ["attack power"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 55610,
+            "name": "Unholy Aura",
+            "effects": ["haste", "versatility"],
+            "specs": [
+                "frost",
+                "unholy"
+            ]
+        },
+        {
+            "id": 155522,
+            "name": "Power of the Grave",
+            "effects": ["mastery"],
+            "specs": [
+                "blood"
+            ]
+        }
+    ],
+    "Druid": [
+        {
+            "id": 17007,
+            "name": "Leader of the Pack",
+            "effects": ["critical strike"],
+            "specs": [
+                "feral"
+            ]
+        },
+        {
+            "id": 1126,
+            "name": "Mark of the Wild",
+            "effects": ["stats", "versatility"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 24907,
+            "name": "Moonkin Aura",
+            "effects": ["mastery"],
+            "specs": [
+                "balance"
+            ]
+        }
+    ],
+    "Mage": [
+        {
+            "id": 1459,
+            "name": "Arcane Brilliance",
+            "effects": ["critical strike", "spell power"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 80353,
+            "name": "Time Warp",
+            "effects": ["bloodlust"],
+            "specs": [
+                "all"
+            ]
+        }
+    ],
+    "Monk": [
+        {
+            "id": 115921,
+            "name": "Legacy of the Emperor",
+            "effects": ["stats"],
+            "specs": [
+                "mistweaver"
+            ]
+        },
+        {
+            "id": 116781,
+            "name": "Legacy of the White Tiger",
+            "effects": ["critical strike", "stats"],
+            "specs": [
+                "brewmaster",
+                "windwalker"
+            ]
+        },
+        {
+            "id": 166916,
+            "name": "Windflurry",
+            "effects": ["multistrike"],
+            "specs": [
+                "windwalker"
+            ]
+        },
+        {
+            "id": 107428,
+            "name": "Rising Sun Kick",
+            "effects": ["mortal wounds"],
+            "specs": [
+                "windwalker"
+            ]
+        }
+    ],
+    "Paladin": [
+        {
+            "id": 20217,
+            "name": "Blessing of Kings",
+            "effects": ["stats"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 167187,
+            "name": "Sanctity Aura",
+            "effects": ["versatility"],
+            "specs": [
+                "retribution"
+            ]
+        },
+        {
+            "id": 19740,
+            "name": "Blessing of Might",
+            "effects": ["mastery"],
+            "specs": [
+                "all"
+            ]
+        }
+    ],
+    "Priest": [
+        {
+            "id": 21562,
+            "name": "Power Word: Fortitude",
+            "effects": ["stamina"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 49868,
+            "name": "Mind Quickening",
+            "effects": ["haste", "multistrike"],
+            "specs": [
+                "shadow"
+            ]
+        }
+    ],
+    "Rogue": [
+        {
+            "id": 113742,
+            "name": "Swiftblade's Cunning",
+            "effects": ["haste", "multistrike"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 8679,
+            "name": "Wound Poison",
+            "effects": ["mortal wounds"],
+            "specs": [
+                "all"
+            ]
+        }
+    ],
+    "Shaman": [
+        {
+            "id": 116956,
+            "name": "Grace of Air",
+            "effects": ["haste", "mastery"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 2825,
+            "name": "Bloodlust",
+            "effects": ["bloodlust"],
+            "specs": [
+                "all"
+            ]
+        }
+    ],
+    "Warlock": [
+        {
+            "id": 166928,
+            "name": "Blood Pact",
+            "effects": ["stamina"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 109773,
+            "name": "Dark Intent",
+            "effects": ["multistrike", "spell power"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 115625,
+            "name": "Mortal Cleave",
+            "effects": ["mortal wounds"],
+            "specs": [
+                "all"
+            ]
+        }
+    ],
+    "Warrior": [
+        {
+            "id": 469,
+            "name": "Commanding Shout",
+            "effects": ["stamina"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 6673,
+            "name": "Battle Shout",
+            "effects": ["attack power"],
+            "specs": [
+                "all"
+            ]
+        },
+        {
+            "id": 167188,
+            "name": "Inspiring Presence",
+            "effects": ["versatility"],
+            "specs": [
+                "arms",
+                "fury"
+            ]
+        },
+        {
+            "id": 12294,
+            "name": "Mortal Strike",
+            "effects": ["mortal wounds"],
+            "specs": [
+                "arms",
+                "fury"
+            ]
+        }
+    ]
+}
+
