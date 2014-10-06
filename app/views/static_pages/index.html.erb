@@ -1,1 +1,51 @@
-<h1>Hello!</h1>
+<%= form_tag root_path, class: 'form-horizontal', role: 'form' do %>
+
+  <div class="row">
+    <div class="col-md-4 form-group">
+      <%= label_tag 'Roster Size', 'Roster Size', class: 'col-sm-7 control-label' %>
+      <div class="col-sm-4">
+        <%= text_field_tag "roster_size", params['roster_size'] ? params['roster_size'] : '', class: 'form-control' %><br />
+      </div>
+      <%= label_tag 'Max Duplicates', 'Duplicates Allowed', class: 'col-sm-7 control-label' %>
+      <div class="col-sm-4">
+        <%= text_field_tag "duplicates_allowed", params['duplicates_allowed'] ? params['duplicates_allowed'] : '', class: 'form-control' %><br />
+      </div>
+    </div>
+  </div>
+
+   <% @character_classes.each_with_index do |character_class, index| %>
+
+    <% if index == 0 %>
+      <div class="row">
+    <% end %>
+    <% if index % @column_count == 0 && index != 0 %>
+      </div>
+      <div class="row">
+    <% end %>
+
+    <div class="col-md-3 form-group">
+
+      <h2><%= character_class.name %></h2>
+
+      <% character_class.class_specs.each do |class_spec| %>
+
+        <div class="form-group">
+          <%= label_tag class_spec.name, class_spec.name, class: 'col-sm-7 control-label' %>
+          <div class="col-sm-3">
+            <%= text_field_tag "spec[#{class_spec.id}]", params['spec'] && params['spec']["#{class_spec.id}"] ? params['spec']["#{class_spec.id}"] : '', class: 'form-control' %><br />
+          </div>
+        </div>
+
+      <% end %>
+
+    </div>
+
+    <% if @character_classes.size - 1 == index %>
+      </div>
+    <% end %>
+
+  <% end %>
+
+  <%= submit_tag %>
+
+<% end %>

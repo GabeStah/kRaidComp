@@ -24,8 +24,11 @@ module PopulateSpells
               end
             end
             spell_data['effects'].each do |effect_name|
-              spell.effects << Effect.find_or_create_by(name: effect_name)
-              spell.save
+              effect = Effect.find_or_create_by(name: effect_name.titleize)
+              unless effect.in? spell.effects
+                spell.effects << effect
+                spell.save!
+              end
             end
           end
         end
